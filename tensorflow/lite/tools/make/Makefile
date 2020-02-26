@@ -102,6 +102,7 @@ $(wildcard tensorflow/lite/*.c) \
 $(wildcard tensorflow/lite/c/*.c) \
 $(wildcard tensorflow/lite/core/*.cc) \
 $(wildcard tensorflow/lite/core/api/*.cc) \
+$(wildcard tensorflow/lite/tools/optimize/sparsity/*.cc) \
 $(wildcard tensorflow/lite/experimental/resource_variable/*.cc) \
 $(wildcard tensorflow/lite/experimental/ruy/*.cc)
 ifneq ($(BUILD_TYPE),micro)
